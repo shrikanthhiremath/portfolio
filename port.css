@@ -71,7 +71,6 @@ p {
 	color: crimson;
 }
 
-/* Header section */
 #header {
 	position: fixed;
 	z-index: 1000;
@@ -196,9 +195,7 @@ p {
 #header .hamburger.active .bar::after {
 	top: 0;
 }
-/* End Header section */
 
-/* Hero Section */
 #hero {
 	background-image:url(/mypic.png);
 	background-size: cover;
@@ -262,9 +259,7 @@ p {
 	animation-delay: 2.5s;
 }
 
-/* End Hero Section */
 
-/* Services Section */
 #services .services {
 	flex-direction: column;
 	text-align: center;
@@ -324,9 +319,7 @@ p {
 	color: white;
 	text-align: left;
 }
-/* End Services Section */
 
-/* Projects section */
 #projects .projects {
 	flex-direction: column;
 	max-width: 1200px;
@@ -445,9 +438,7 @@ p {
 	border: 7px solid crimson;
 	z-index: -1;
 }
-/* End About Section */
 
-/* contact Section */
 #contact .contact {
 	flex-direction: column;
 	max-width: 1200px;
@@ -490,9 +481,7 @@ p {
 	line-height: 2rem;
 	font-weight: 500;
 }
-/*End contact Section */
 
-/* Footer */
 #footer {
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 }
